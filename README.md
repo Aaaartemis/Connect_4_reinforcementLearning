@@ -32,7 +32,7 @@ This project implements a reinforcement learning agent that learns to play 4x4 C
 
 ### Training the Agent
 
-Run the training script to train the Q-learning agent:
+Run the training script to train the tabular Q-learning agent:
 
 ```bash
 python training_final.py
