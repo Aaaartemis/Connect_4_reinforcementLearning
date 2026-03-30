@@ -4,7 +4,7 @@ This project implements a reinforcement learning agent that learns to play 4x4 C
 
 ## Features
 
-- **Q-Learning Agent**: Trained using reinforcement learning with epsilon-greedy exploration
+- **Tabular Q-Learning Agent**: Trained using reinforcement learning with epsilon-greedy exploration
 - **Multiple Opponent Types**: Random, heuristic, minimax, and self-play snapshots
 - **Reward Shaping**: Enhanced learning through intermediate rewards for creating threats
 - **Graphical Interface**: Play against the trained AI using Pygame
