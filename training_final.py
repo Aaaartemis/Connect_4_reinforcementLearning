@@ -7,12 +7,12 @@ from player import Player
 
 TOTAL_GAMES = 40_000_000
 
-# Opponent mix: Random 50%, Self-snapshot 20%, Heuristic 20%, Minimax 10%
+# Opponent mix: Random 40%, Self-snapshot 20%, Heuristic 20%, Minimax 20%
 OPPONENT_MODES = [
-    ("random", 0.5),
+    ("random", 0.4),
     ("self_snapshot", 0.2),
     ("heuristic", 0.2),
-    ("minimax", 0.1),
+    ("minimax", 0.2),
 ]
 
 SNAPSHOT_INTERVAL = 200_000
